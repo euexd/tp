@@ -1,0 +1,128 @@
+html {
+    scroll-padding-top: 70px;
+  }
+
+h1 {
+    font-size: medium;
+}
+
+h1 em {
+    font-size: 2.5rem;
+    font-style: normal;
+}
+
+u {
+    text-decoration: underline dotted;
+}
+
+.nota {
+    color: gray;
+    font-size: smaller;
+}
+
+.botones a {
+    font-size: .8rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 .2rem 0;
+}
+
+.comprar {
+    color: rgb(7, 150, 80);
+}
+
+.comprar:hover {
+    color: rgb(6, 175, 95);
+}
+
+.card:hover {
+    box-shadow: 0 0 15px lightgray;
+}
+
+
+.bgGrisOscuro {
+    background: rgb(65, 65, 65);
+    background: linear-gradient(180deg, rgba(65, 65, 65, 1) 0%, rgba(95, 95, 95, 1) 100%);
+}
+
+.bgGrisOscuro {
+    background: rgb(65, 65, 65);
+    background: linear-gradient(180deg, rgba(65, 65, 65, 1) 0%, rgba(95, 95, 95, 1) 100%);
+}
+
+.brilloOscuro {
+    filter: brightness(50%);
+}
+
+.carousel-control-prev:hover {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.carousel-control-next:hover {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 100%);
+}
+
+.card-text {
+    font-size: small;
+}
+
+.btn-success {
+    background-color: rgb(45, 165, 60);
+    border-color: rgb(45, 165, 60);
+}
+
+.btn-success:hover {
+    background-color: rgb(60, 185, 75);
+    border-color: rgb(60, 185, 75);
+}
+
+.btn-info {
+    background-color: rgb(37, 158, 168);
+    border-color: rgb(37, 158, 168);
+}
+
+.btn-info:hover {
+    background-color: rgb(31, 136, 146);
+    border-color: rgb(31, 136, 146);
+}
+
+.card-title {
+    margin-top: .25rem;
+}
+
+.range {
+    width: 100%;
+}
+
+#lugaryfecha:hover {
+   filter: brightness(105%);
+}
+
+.footer {
+    background: rgb(22, 44, 52);
+    background: linear-gradient(90deg, rgba(22, 44, 52, 1) 0%, rgba(29, 88, 93, 1) 36%, rgba(28, 87, 94, 1) 45%, rgba(52, 68, 91, 1) 100%);
+}
+
+.link-f {
+    color: rgb(205, 215, 215);
+}
+
+.link-f:hover {
+    color: white;
+}
+
+@media (min-width: 960px) {
+    .formulario {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .formulario {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}

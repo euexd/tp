@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codo a Codo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/logo_ba__buenos_aires_ciudad.png">
+</head>
+
+<body>
+  <!-- barra de navegacion -->
+  <nav class="navbar sticky-top bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid" style="width: 90%;">
+      <a class="navbar-brand" href="#">
+        <img src="images/codoacodo.png" alt="Logo" height="45" class="d-inline-block align-text-center">
+        Conf Bs As
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          </li>
+        </ul>
+        <span>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#carrusel">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#oradores">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lugaryfecha">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#formulario">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link comprar" href="comprar.html">Comprar tickets</a>
+            </li>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carrusel -->
+  <div id="carrusel">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" style="height: 600px;">
+        <div class="carousel-item active d-flex h-100">
+          <img src="images/ba1.jpg" class="d-block w-100 brilloOscuro" style="object-fit: cover;" alt="b">
+          <div class="carousel-caption d-block mb-5 text-lg-end">
+            <h5>Conf Bs As</h5>
+            <div class="d-flex justify-content-center justify-content-lg-end mb-4">
+              <div style="width: 500px;">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere asperiores, eveniet inventore nobis
+                  pariatur quas, labore ut expedita repellendus itaque cumque odio distinctio maxime ipsam eum dolorum
+                  reprehenderit ratione unde.</p>
+              </div>
+            </div>
+            <div>
+              <a href="#formulario" class="btn btn-outline-light mb-2">Quiero ser orador</a>
+              <a href="comprar.html" class="btn btn-success mb-2">Comprar Ticket</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item d-flex h-100">
+          <img src="images/ba2.jpg" class="d-block w-100 brilloOscuro" style="object-fit: cover;" alt="a">
+          <div class="carousel-caption d-block mb-5 text-lg-end">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item d-flex h-100">
+          <img src="images/ba3.jpg" class="d-block w-100 brilloOscuro" style="object-fit: cover;" alt="c">
+          <div class="carousel-caption d-block mb-5 text-lg-end">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+
+
+  <!-- oradores -->
+  <div class="py-3" id="oradores">
+    <div class="d-flex justify-content-center">
+      <div class="text-wrap text-center" style="width: 13rem;">
+        <h1>
+          CONOCE A LOS
+          <em>ORADORES</em>
+        </h1>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center flex-wrap">
+
+      <!-- orador -->
+      <div class="card mx-3 my-2" style="width: 20rem;">
+        <img src="images/Steve_Jobs.jpg" class="card-img-top" alt="steve">
+        <div class="card-body">
+          <div class="botones">
+            <a href="#" class="btn btn-sm btn-warning">Javascript</a>
+            <a href="#" class="btn btn-sm btn-info text-light">React</a>
+
+          </div>
+          <h5 class="card-title">Steve Jobs</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illum laboriosam
+            quaerat
+            quod ab nobis, corporis aut iusto debitis blanditiis tempora fugiat quae, nihil doloremque sed corrupti
+            eaque
+            adipisci possimus.</p>
+        </div>
+      </div>
+
+      <!-- orador -->
+      <div class="card mx-3 my-2" style="width: 20rem;">
+        <img src="images/Bill_Gates.png" class="card-img-top" alt="steve">
+        <div class="card-body">
+          <div class="botones">
+            <a href="#" class="btn btn-sm btn-warning">Javascript</a>
+            <a href="#" class="btn btn-sm btn-info text-light">React</a>
+
+          </div>
+          <h5 class="card-title">Bill Gates</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illum laboriosam
+            quaerat
+            quod ab nobis, corporis aut iusto debitis blanditiis tempora fugiat quae, nihil doloremque sed corrupti
+            eaque
+            adipisci possimus.</p>
+        </div>
+      </div>
+
+      <!-- orador -->
+      <div class="card mx-3 my-2" style="width: 20rem;">
+        <img src="images/Ada_Lovelace.png" class="card-img-top" alt="steve">
+        <div class="card-body">
+          <div class="botones">
+            <a href="#" class="btn btn-sm btn-secondary">Negocios</a>
+            <a href="#" class="btn btn-sm btn-danger text-light">Startups</a>
+
+          </div>
+          <h5 class="card-title">Adda Lovelace</h5>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit illum laboriosam
+            quaerat
+            quod ab nobis, corporis aut iusto debitis blanditiis tempora fugiat quae, nihil doloremque sed corrupti
+            eaque
+            adipisci possimus.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- fecha y lugar -->
+  <div class="container-fluid" id="lugaryfecha">
+    <div class="row ">
+      <div class="col-lg p-0">
+        <img src="images/honolulu.jpg" alt="honolulu" class="img-fluid" id="imgLugar">
+      </div>
+      <div class="col-lg bgGrisOscuro text-white">
+        <div class="fs-4 mt-2 mb-3">
+          BsAs - Octubre
+        </div>
+        <div class="mb-3">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi eos voluptates quo esse consectetur aut,
+          cupiditate voluptas laborum. Animi a architecto unde, commodi itaque enim asperiores iste consequuntur
+          excepturi vel.
+        </div>
+        <div class="mb-4">
+          <a href="#" class="btn btn-outline-light">Conocé más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- formulario -->
+  <div class="my-3 pb-3" id="formulario">
+    <div class="d-flex justify-content-center">
+      <div class="text-wrap text-center" style="width: 13rem;">
+        <h1>
+          CONVIÉRTETE EN UN
+          <em>ORADOR</em>
+        </h1>
+      </div>
+    </div>
+    <div class="container-fluid formulario" style="width: 80%;">
+      <form class="needs-validation" novalidate>
+        <p class="text-center">Anótate como orador para dar una <u>charla ignite</u>. Cuéntanos de qué quieres hablar!
+        </p>
+        <div class="row">
+          <div class="col-lg my-2">
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Por favor, ingrese su nombre.
+            </div>
+          </div>
+          <div class="col-lg my-2">
+            <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+            <div class="invalid-feedback">
+              Por favor, ingrese su apellido.
+            </div>
+          </div>
+        </div>
+        <div class="my-2">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+            placeholder="Sobre qué quieres hablar?" required></textarea>
+          <p class="nota my-1">Recuerda incluir un título para tu charla.</p>
+        </div>
+        <button type="submit" class="btn btn-success w-100">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- foooter -->
+  <ul class="nav justify-content-center footer">
+    <div class="text-wrap text-center d-flex align-items-center" style="width: 10rem;">
+      <li class="nav-item ">
+        <a class="nav-link link-f mx-3 my-2" href="#">Preguntas frecuentes</a>
+      </li>
+    </div>
+    <li class="nav-item d-flex align-items-center">
+      <a class="nav-link link-f mx-3 my-2" href="#">Contáctanos</a>
+    </li>
+    <li class="nav-item d-flex align-items-center">
+      <a class="nav-link link-f mx-3 my-2" href="#">Prensa</a>
+    </li>
+    <li class="nav-item d-flex align-items-center">
+      <a class="nav-link link-f mx-3 my-2" href="#">Conferencias</a>
+    </li>
+    <div class="text-wrap text-center d-flex align-items-center" style="width: 10rem;">
+      <li class="nav-item">
+        <a class="nav-link link-f mx-3 my-2" href="#">Términos y condiciones</a>
+      </li>
+    </div>
+    <li class="nav-item d-flex align-items-center">
+      <a class="nav-link link-f mx-3 my-2" href="#">Privacidad</a>
+    </li>
+    <li class="nav-item d-flex align-items-center">
+      <a class="nav-link link-f mx-3 my-2" href="#">Estudiantes</a>
+    </li>
+  </ul>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
