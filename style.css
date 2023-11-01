@@ -100,6 +100,34 @@ u {
    filter: brightness(105%);
 }
 
+#cardEstudiante:hover {
+    border-color: lightskyblue;
+}
+
+#cardTrainee:hover {
+    border-color: lightgreen;
+}
+
+#cardJunior:hover {
+    border-color: orange;
+}
+
+#cardEstudiante {
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+#cardTrainee {
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+#cardJunior {
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+
 .footer {
     background: rgb(22, 44, 52);
     background: linear-gradient(90deg, rgba(22, 44, 52, 1) 0%, rgba(29, 88, 93, 1) 36%, rgba(28, 87, 94, 1) 45%, rgba(52, 68, 91, 1) 100%);

@@ -27,7 +27,6 @@ function cantRango() {
   document.getElementById("seleccion").innerHTML = cant
 }
 
-
 function calcTotal() {
 
   const precio = 1000;
@@ -40,5 +39,34 @@ function calcTotal() {
   total = total - (total * desc / 100)
 
   document.getElementById("total").innerHTML = total
+
+}
+
+function sel(descuento) {
+
+  document.getElementById("desc").value = descuento
+
+}
+
+
+function colorSelec() {
+
+  if (document.getElementById("desc").value == 80) {
+    document.getElementById("cardEstudiante").style.borderColor = "lightskyblue";
+    document.getElementById("cardTrainee").style.borderColor = "lightgray";
+    document.getElementById("cardJunior").style.borderColor = "lightgray";
+  }
+
+  if (document.getElementById("desc").value == 50) {
+    document.getElementById("cardEstudiante").style.borderColor = "lightgray";
+    document.getElementById("cardTrainee").style.borderColor = "lightgreen";
+    document.getElementById("cardJunior").style.borderColor = "lightgray";
+  }
+
+  if (document.getElementById("desc").value == 15) {
+    document.getElementById("cardEstudiante").style.borderColor = "lightgray";
+    document.getElementById("cardTrainee").style.borderColor = "lightgray";
+    document.getElementById("cardJunior").style.borderColor = "orange";
+  }
 
 }
